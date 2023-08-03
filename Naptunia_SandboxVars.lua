@@ -498,9 +498,9 @@ SandboxVars = {
     -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0.00 Maximum=1000.00 Default=1.00
     LightBulbLifespan = 1.0,
     Map = {
-        AllowMiniMap = false,
+        AllowMiniMap = true,
         AllowWorldMap = true,
-        MapAllKnown = false,
+        MapAllKnown = true,
     },
     ZombieLore = {
         -- Controls the zombie movement rate. Default=Fast Shamblers
